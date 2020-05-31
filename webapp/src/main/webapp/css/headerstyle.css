@@ -1,0 +1,107 @@
+.myrows{
+    border: 3px solid green;
+    padding: 5px;
+}
+.mycolumns{
+    border: 3px solid red;
+}
+.mycontainer{
+    background-color: aqua;
+    
+}
+#topHeader{
+    border-bottom: 1px solid#ebebeb;
+}
+#topHeader a{
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 0.89rem;
+
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+nav ul li a {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+
+/* START: footer*/
+.full-footer{
+    background-color: #01224F;
+    
+}
+.top-footer p{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.top-footer h3{
+    color: #FFFFFF;
+}
+.top-footer a{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.bottom-footer{
+    background-color: rgb(21, 31, 46);
+}
+.bottom-footer p{
+    color:#FFFFFF;
+
+}
+/* END: footer*/
+
+/* START: home page first hero section*/
+.top-hero-section{
+    background-color: #FFB64D;
+    color: #01224F;
+
+}
+.top-hero-section a{
+       color: #FFFFFF;
+       font-weight: 500;
+
+}
+/* END: home page first hero section*/
+
+<!--/* START: home page second section - our qualities*/-->
+.qualities-img{
+    width:200px;
+}
+<!--/* END: home page second section - our qualities*/-->
+
+
+<!--/* START: home page 3rd section - our qualities*/-->
+.requirements-section{
+    background-color: #FFB64D;
+    color: #01224F;
+}
+
+<!--/* START: home page 4th section - News letter section */-->
+
+.home-newsletter{
+    background-color: #FFB64D;
+    color: #01224F;
+}
+.home-newsletter .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #01224F;
+    color: #FFB64D;
+}
+
+<!--/* END: home page 4th section - News letter section */-->
+
+.clients-section{
+    background-color: #f0f0f0;
+}
+
+

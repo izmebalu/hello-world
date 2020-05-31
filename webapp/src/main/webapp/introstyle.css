@@ -1,0 +1,27 @@
+#third
+{
+    color: blueviolet;
+    background-color: gold
+
+}
+.fine
+{
+    color: aliceblue;
+    background-color: blueviolet
+}
+a:link
+{
+    color: greenyellow;
+}
+a:visited
+{
+    color: burlywood;
+}
+a:hover
+{
+    color: orange;
+}
+a:active
+{
+    color:black;
+}
