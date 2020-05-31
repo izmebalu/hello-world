@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML FORM</title>
+    <style>
+        form
+        {
+            width:px;
+            height: 800px;
+            background-color: bisque;
+            margin: 00px;
+            padding-left: 900px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        
+        input[type="text"],input[type="password"],select
+        {
+            width: 200px;
+            height: 20px;
+            border: 1px solid;
+        }
+        textarea[name="text"],[name="submit_form"]
+        {
+            border: 1px solid;
+        }
+           
+       
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>LOGIN</h1>
+        <table>
+            <tr>
+                <td><label for="user">Username</label></td>
+                <td><input type="text" name="user" id="user">
+                <td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            
+
+            <tr>
+                <td><label for="user">Gender:</label></td>
+                <td> <input type="radio" name="gender" value="male"> Male |
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="user">Skills:</label></td>
+                <td> <input type="checkbox" id="kill" name="html" value="html"> HTML |
+                    <input type="checkbox" id="kill" name="css" value="css">CSS |
+                    <input type="checkbox" id="kill" name="php" value="php">PHP
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Select the country</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="">Select your country</option>
+                        <option value="in">India</option>
+                        <option value="pk">Pakistan</option>
+                        <option value="eu">Europe</option>
+                        <option value="au">Australia</option>
+                        <option value="ch">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Comments</label></td>
+                <td><textarea name="text"  id="" cols=25 rows="5" ></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="Submit" value="Click to Submit" name="submit_form"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
